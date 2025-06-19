@@ -1,0 +1,210 @@
+{
+  "d": {
+    "NSE:SBIN-EQ": {
+      "totalbuyqty": 0,
+      "totalsellqty": 7035,
+      "ask": [
+        {
+          "price": 785.1,
+          "volume": 7035,
+          "ord": 35
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        }
+      ],
+      "bids": [
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        }
+      ],
+      "o": 792.35,
+      "h": 793.25,
+      "l": 781.7,
+      "c": 791.9,
+      "chp": -0.86,
+      "tick_Size": 0.05,
+      "ch": -6.8,
+      "ltq": 2,
+      "ltt": 1750328926,
+      "ltp": 785.1,
+      "v": 11824333,
+      "atp": 786.26,
+      "lower_ckt": 712.75,
+      "upper_ckt": 871.05,
+      "expiry": "",
+      "oi": 0,
+      "oiflag": false,
+      "pdoi": 0,
+      "oipercent": 0
+    },
+    "NSE:TCS-EQ": {
+      "totalbuyqty": 0,
+      "totalsellqty": 866,
+      "ask": [
+        {
+          "price": 785.1,
+          "volume": 7035,
+          "ord": 35
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 3424,
+          "volume": 866,
+          "ord": 14
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        }
+      ],
+      "bids": [
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        },
+        {
+          "price": 0,
+          "volume": 0,
+          "ord": 0
+        }
+      ],
+      "o": 3450,
+      "h": 3451,
+      "l": 3413,
+      "c": 3451.4,
+      "chp": -0.79,
+      "tick_Size": 0.1,
+      "ch": -27.4,
+      "ltq": 9,
+      "ltt": 1750328911,
+      "ltp": 3424,
+      "v": 2672768,
+      "atp": 3426.54,
+      "lower_ckt": 3106.3,
+      "upper_ckt": 3796.5,
+      "expiry": "",
+      "oi": 0,
+      "oiflag": false,
+      "pdoi": 0,
+      "oipercent": 0
+    }
+  },
+  "message": "Success",
+  "s": "ok"
+}
