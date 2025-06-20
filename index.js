@@ -35,7 +35,7 @@ async function run() {
     }
 
     const accessToken = tokenRes.access_token;
-    console.log("=> Access token received.");
+    console.log("=> Access token received.", accessToken);
 
     // Set the access token
     fyers.setAccessToken(accessToken);
