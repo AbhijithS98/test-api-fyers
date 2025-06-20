@@ -1,0 +1,57 @@
+{
+  "message": "",
+  "code": 200,
+  "d": [
+    {
+      "n": "NSE:SBIN-EQ",
+      "v": {
+        "ask": 794.7,
+        "bid": 794.5,
+        "chp": 1.21,
+        "ch": 9.5,
+        "description": "NSE:SBIN-EQ",
+        "exchange": "NSE",
+        "fyToken": "10100000003045",
+        "high_price": 799.45,
+        "low_price": 786.1,
+        "lp": 794.6,
+        "open_price": 787.5,
+        "original_name": "NSE:SBIN-EQ",
+        "prev_close_price": 785.1,
+        "short_name": "SBIN-EQ",
+        "spread": 0.2,
+        "symbol": "NSE:SBIN-EQ",
+        "tt": "1750377600",
+        "volume": 5804313,
+        "atp": 793.01
+      },
+      "s": "ok"
+    },
+    {
+      "n": "NSE:TCS-EQ",
+      "v": {
+        "ask": 3435,
+        "bid": 3434.1,
+        "chp": 0.29,
+        "ch": 10.1,
+        "description": "NSE:TCS-EQ",
+        "exchange": "NSE",
+        "fyToken": "101000000011536",
+        "high_price": 3441,
+        "low_price": 3410.9,
+        "lp": 3434.1,
+        "open_price": 3425,
+        "original_name": "NSE:TCS-EQ",
+        "prev_close_price": 3424,
+        "short_name": "TCS-EQ",
+        "spread": 0.9,
+        "symbol": "NSE:TCS-EQ",
+        "tt": "1750377600",
+        "volume": 941880,
+        "atp": 3426.33
+      },
+      "s": "ok"
+    }
+  ],
+  "s": "ok"
+}

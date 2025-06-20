@@ -1,0 +1,210 @@
+{
+  "d": {
+    "NSE:SBIN-EQ": {
+      "totalbuyqty": 593542,
+      "totalsellqty": 1120181,
+      "ask": [
+        {
+          "price": 3435,
+          "volume": 296,
+          "ord": 5
+        },
+        {
+          "price": 3435.1,
+          "volume": 175,
+          "ord": 1
+        },
+        {
+          "price": 3435.2,
+          "volume": 10,
+          "ord": 1
+        },
+        {
+          "price": 3435.3,
+          "volume": 47,
+          "ord": 4
+        },
+        {
+          "price": 3435.4,
+          "volume": 203,
+          "ord": 5
+        },
+        {
+          "price": 794.7,
+          "volume": 31,
+          "ord": 1
+        },
+        {
+          "price": 794.75,
+          "volume": 566,
+          "ord": 6
+        },
+        {
+          "price": 794.8,
+          "volume": 1084,
+          "ord": 10
+        },
+        {
+          "price": 794.85,
+          "volume": 8299,
+          "ord": 19
+        },
+        {
+          "price": 794.9,
+          "volume": 1233,
+          "ord": 11
+        }
+      ],
+      "bids": [
+        {
+          "price": 3434.1,
+          "volume": 65,
+          "ord": 1
+        },
+        {
+          "price": 3433.9,
+          "volume": 32,
+          "ord": 5
+        },
+        {
+          "price": 3433.6,
+          "volume": 41,
+          "ord": 2
+        },
+        {
+          "price": 3433.5,
+          "volume": 69,
+          "ord": 5
+        },
+        {
+          "price": 3433.4,
+          "volume": 95,
+          "ord": 7
+        },
+        {
+          "price": 794.5,
+          "volume": 51,
+          "ord": 3
+        },
+        {
+          "price": 794.45,
+          "volume": 305,
+          "ord": 3
+        },
+        {
+          "price": 794.4,
+          "volume": 364,
+          "ord": 5
+        },
+        {
+          "price": 794.35,
+          "volume": 1179,
+          "ord": 6
+        },
+        {
+          "price": 794.3,
+          "volume": 957,
+          "ord": 15
+        }
+      ],
+      "o": 787.5,
+      "h": 799.45,
+      "l": 786.1,
+      "c": 785.1,
+      "chp": 1.21,
+      "tick_Size": 0.05,
+      "ch": 9.5,
+      "ltq": 6,
+      "ltt": 1750403826,
+      "ltp": 794.6,
+      "v": 5804313,
+      "atp": 793.01,
+      "lower_ckt": 706.6,
+      "upper_ckt": 863.6,
+      "expiry": "",
+      "oi": 0,
+      "oiflag": false,
+      "pdoi": 0,
+      "oipercent": 0
+    },
+    "NSE:TCS-EQ": {
+      "totalbuyqty": 99973,
+      "totalsellqty": 125937,
+      "ask": [
+        {
+          "price": 3435,
+          "volume": 296,
+          "ord": 5
+        },
+        {
+          "price": 3435.1,
+          "volume": 175,
+          "ord": 1
+        },
+        {
+          "price": 3435.2,
+          "volume": 10,
+          "ord": 1
+        },
+        {
+          "price": 3435.3,
+          "volume": 47,
+          "ord": 4
+        },
+        {
+          "price": 3435.4,
+          "volume": 203,
+          "ord": 5
+        }
+      ],
+      "bids": [
+        {
+          "price": 3434.1,
+          "volume": 65,
+          "ord": 1
+        },
+        {
+          "price": 3433.9,
+          "volume": 32,
+          "ord": 5
+        },
+        {
+          "price": 3433.6,
+          "volume": 41,
+          "ord": 2
+        },
+        {
+          "price": 3433.5,
+          "volume": 69,
+          "ord": 5
+        },
+        {
+          "price": 3433.4,
+          "volume": 95,
+          "ord": 7
+        }
+      ],
+      "o": 3425,
+      "h": 3441,
+      "l": 3410.9,
+      "c": 3424,
+      "chp": 0.29,
+      "tick_Size": 0.1,
+      "ch": 10.1,
+      "ltq": 1,
+      "ltt": 1750403827,
+      "ltp": 3434.1,
+      "v": 941880,
+      "atp": 3426.33,
+      "lower_ckt": 3081.6,
+      "upper_ckt": 3766.4,
+      "expiry": "",
+      "oi": 0,
+      "oiflag": false,
+      "pdoi": 0,
+      "oipercent": 0
+    }
+  },
+  "message": "Success",
+  "s": "ok"
+}

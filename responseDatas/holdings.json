@@ -1,0 +1,13 @@
+{
+  "code": 200,
+  "message": "",
+  "s": "ok",
+  "overall": {
+    "count_total": 0,
+    "pnl_perc": 0,
+    "total_current_value": 0,
+    "total_investment": 0,
+    "total_pl": 0
+  },
+  "holdings": []
+}

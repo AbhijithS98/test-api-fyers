@@ -1,17 +1,16 @@
-var fyersModel = require("fyers-api-v3").fyersModel;
-var fyers = new fyersModel({ path: "logs/", enableLogging: true });
 require('dotenv').config();
-const fs = require('fs');
+const { fyersModel } = require("fyers-api-v3");
 
+var fyers = new fyersModel({ path: "logs/", enableLogging: true });
 
 //setting credentials
 fyers.setAppId(process.env.APP_ID);
 fyers.setRedirectUrl(process.env.REDIRECT_URI);
 
 //generating authcode URL
-var URL = fyers.generateAuthCode();
+const loginUrl = fyers.generateAuthCode();
 //use url to generate auth code
-console.log("login URL: ",URL);
+console.log("login URL: ",loginUrl);
 
 
 //only run if auth code is available
@@ -34,32 +33,14 @@ async function run() {
       return;
     }
 
-    const accessToken = tokenRes.access_token;
-    console.log("=> Access token received.", accessToken);
-
     // Set the access token
-    fyers.setAccessToken(accessToken);
+    fyers.setAccessToken(tokenRes.access_token);
+    console.log("=> Access token set");
 
-    // Make API calls
-
-    // Get profile
-    const profile = await fyers.get_profile();
-    fs.writeFileSync("profile.json", JSON.stringify(profile, null, 2));
-    console.log("=> Saved profile.json");
-
-    // Get live quotes
-    const quotes = await fyers.getQuotes(["NSE:SBIN-EQ", "NSE:TCS-EQ"]);
-    fs.writeFileSync("quotes.json", JSON.stringify(quotes, null, 2));
-    console.log("=> Saved quotes.json");
-
-    // Get market depth
-    const depth = await fyers.getMarketDepth({
-      symbol: ["NSE:SBIN-EQ", "NSE:TCS-EQ"],
-      ohlcv_flag: 1,
-    });
-    fs.writeFileSync("marketDepth.json", JSON.stringify(depth, null, 2));
-    console.log("=> Saved marketDepth.json");
-
+    // Call API categories
+    await require("./modules/account")(fyers);
+    await require("./modules/market")(fyers);
+  
   } catch (error) {
     console.error("=> Error occurred:", error);
   }
@@ -67,3 +48,4 @@ async function run() {
 
 // Run the async function
 run();
+

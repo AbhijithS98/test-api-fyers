@@ -1,0 +1,13 @@
+{
+  "code": 200,
+  "message": "",
+  "s": "ok",
+  "netPositions": [],
+  "overall": {
+    "count_open": 0,
+    "count_total": 0,
+    "pl_realized": 0,
+    "pl_total": 0,
+    "pl_unrealized": 0
+  }
+}
